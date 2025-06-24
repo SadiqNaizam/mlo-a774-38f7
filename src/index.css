@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 211 100% 50%; /* PRD: #007BFF */
+    --background: 210 40% 96.1%; /* A light gray for the page background */
     --foreground: 0 0% 0%; /* PRD: #000000 */
 
     --card: 0 0% 100%; /* PRD: #FFFFFF */
@@ -30,17 +30,15 @@
     --destructive: 0 84.2% 60.2%; /* Default */
     --destructive-foreground: 210 40% 98%; /* Default */
 
-    --border: 211 100% 50%; /* PRD: #007BFF */
-    --input: 211 100% 50%; /* PRD: #007BFF */
+    --border: 214.3 31.8% 91.4%; /* A neutral gray for borders */
+    --input: 214.3 31.8% 91.4%; /* A neutral gray for input borders */
     --ring: 211 100% 50%; /* PRD: #007BFF for focus rings */
 
     --radius: 0.5rem; /* Default Shadcn value, supports rounded-md via calc() */
   }
 
   /* Dark mode is not specified in the PRD and removed for simplicity */
-}
 
-@layer base {
   * {
     @apply border-border;
   }
